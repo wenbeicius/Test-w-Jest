@@ -8,10 +8,3 @@ describe('App should run on port 3000', () => {
     })
 })
 
-
-describe('App should run on port 3000', () => {
-    test('It should fail to GET request', async () => {
-        const response = await request(app).get('/');
-        expect(response.statusCode).toBe(402);
-    })
-})
