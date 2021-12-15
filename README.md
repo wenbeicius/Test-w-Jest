@@ -1,2 +1,2 @@
 # Test-w-Jest
-Jest testing
+Jest testing with Travis-CI
